@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  healthcheck:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-08T16:43:12.490458962+02:00"
+    description: A Helm chart for Kubernetes
+    digest: e148d46ea9b86c06c592c540d6492dc74d6bfaa59fe17e3e3175633cda16b6d9
+    name: healthcheck
+    type: application
+    urls:
+    - https://alberthahn.github.io/helm-charts/healthcheck-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-04-08T16:43:12.488645519+02:00"
