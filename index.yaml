@@ -3,34 +3,34 @@ entries:
   healtcheckmaster:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-09T10:18:33.219133386+02:00"
+    created: "2021-04-09T10:32:36.88476766+02:00"
     description: A Helm chart for Kubernetes
-    digest: 7f630935f165af72e1e092c3f86045df4bc4606f64861cfdfee8921e14d71af5
+    digest: 95bdd002ae5a40bf1957b5f65dfc9b8259f4285e9fe69c75d3367071280aa4a5
     name: healtcheckmaster
     type: application
     urls:
-    - https://mattiaperi.github.io/helm-chart/healtcheckmaster-0.1.0.tgz
+    - ttps://alberthahn.github.io/helm-charts/healtcheckmaster-0.1.0.tgz
     version: 0.1.0
   healthcheck:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-09T10:18:33.220062939+02:00"
+    created: "2021-04-09T10:32:36.885625227+02:00"
     description: A Helm chart for Kubernetes
-    digest: 60d1de265c5b32173986080a2cc33f6e399569c95793a1b3b7193cd2d2887359
+    digest: b8ca9c9c5083e1665d92e78f3851198db203f4f149b49ac448ef2df085d49e75
     name: healthcheck
     type: application
     urls:
-    - https://mattiaperi.github.io/helm-chart/healthcheck-0.1.0.tgz
+    - ttps://alberthahn.github.io/helm-charts/healthcheck-0.1.0.tgz
     version: 0.1.0
   healthcheckslave:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-09T10:18:33.221146824+02:00"
+    created: "2021-04-09T10:32:36.886632657+02:00"
     description: A Helm chart for Kubernetes
-    digest: e594091396f3172169da8dfc95e0b451cdefed431a0e6c1cd249c130611a1f2c
+    digest: 1716dc783a03071959687ffd81653f7781065969b29a69d4b2ee00b5bb45c678
     name: healthcheckslave
     type: application
     urls:
-    - https://mattiaperi.github.io/helm-chart/healthcheckslave-0.1.0.tgz
+    - ttps://alberthahn.github.io/helm-charts/healthcheckslave-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-09T10:18:33.217892866+02:00"
+generated: "2021-04-09T10:32:36.883339557+02:00"
