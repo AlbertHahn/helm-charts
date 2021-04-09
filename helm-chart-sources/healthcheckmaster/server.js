@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Constants
-const PORT = 8080;
+const PORT = 7005;
 const HOST = '0.0.0.0';
 
 async function makeGetRequest() {
