@@ -36,7 +36,6 @@ spec:
           env:
             - name: PORT
               value: "{{ .Values.containerPort }}"
-
           ports:
             - name: http
               containerPort: {{ .Values.containerPort }}

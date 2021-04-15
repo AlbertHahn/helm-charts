@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  healthmasternode:
+  masternode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-15T10:25:57.372033102+02:00"
+    created: "2021-04-15T11:52:48.199741092+02:00"
     description: A Helm chart for Kubernetes
-    digest: d80046e9bae28b5fd475ee29d5f743a032557b087a789285ae545e389eb30462
-    name: healthmasternode
+    digest: f49565917d79c2c13c9cb11a121ffb87681b0425f62d92adc5b3e6cff20a96f1
+    name: masternode
     type: application
     urls:
-    - https://alberthahn.github.io/helm-charts/healthmasternode-0.1.0.tgz
+    - https://alberthahn.github.io/helm-charts/masternode-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-15T10:25:57.320744241+02:00"
+generated: "2021-04-15T11:52:48.199117319+02:00"
