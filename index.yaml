@@ -3,9 +3,9 @@ entries:
   healtcheckmaster:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-15T08:58:47.354702691+02:00"
+    created: "2021-04-15T09:33:53.034244859+02:00"
     description: A Helm chart for Kubernetes
-    digest: 6ae9a63105be51163ce512eb992de9b59f794f227a038e9c6b542474b19918d1
+    digest: e8687404b3e8cb0c6a10625cd91000162c8b5d55c6f8bf8b13a0b15d9a8fad37
     name: healtcheckmaster
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   healthcheck:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-15T08:58:47.356565756+02:00"
+    created: "2021-04-15T09:33:53.034823148+02:00"
     description: A Helm chart for Kubernetes
-    digest: 73cfbe23cf88c3ca0c7eb7f8485441f269581de39bc146121d359e74241057b5
+    digest: ff1509a5459599195d5019ea7c2dcdf752f98e0b72e4451ce45c2369bcfba115
     name: healthcheck
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   healthcheckslave:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-15T08:58:47.358648824+02:00"
+    created: "2021-04-15T09:33:53.03549287+02:00"
     description: A Helm chart for Kubernetes
-    digest: bbef8a1645fc34e4a6e54de3f81425fc33e6f60c8d18385bdc4151efaea6c6f8
+    digest: 68717230321cffba124a10993162566a919e41edc7bd18b50b6069585b76893d
     name: healthcheckslave
     type: application
     urls:
@@ -36,12 +36,12 @@ entries:
   healthmasternode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-15T08:58:47.402289123+02:00"
+    created: "2021-04-15T09:33:53.057833408+02:00"
     description: A Helm chart for Kubernetes
-    digest: 6186a5494132944e7e84a26bb5e5486c43ad025b5eb26f4076e1a68aafec1126
+    digest: 6cea3070a255d07668bd78f32f69190c8278d81a800d67c1bad7b0f0a5d86258
     name: healthmasternode
     type: application
     urls:
     - https://alberthahn.github.io/helm-charts/healthmasternode-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-15T08:58:47.352757292+02:00"
+generated: "2021-04-15T09:33:53.033365042+02:00"
