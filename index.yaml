@@ -3,12 +3,23 @@ entries:
   masternode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-15T12:28:56.701316155+02:00"
+    created: "2021-04-16T15:05:54.960550239+02:00"
     description: A Helm chart for Kubernetes
-    digest: ac1769cb212db65c632210ccc765b3422976b9fc581cbd10725b89cbec5c2486
+    digest: 156944c0d115d3a49356c6d6613790260ed96c9e13dba2f79c77e2e7f1b54570
     name: masternode
     type: application
     urls:
     - https://alberthahn.github.io/helm-charts/masternode-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-15T12:28:56.700072379+02:00"
+  slavenode:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-16T15:05:54.961014475+02:00"
+    description: A Helm chart for Kubernetes
+    digest: e340316ecca0e995525431e9312032febe535d743258eca957ece07486943fb8
+    name: slavenode
+    type: application
+    urls:
+    - https://alberthahn.github.io/helm-charts/slavenode-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-04-16T15:05:54.95992461+02:00"
