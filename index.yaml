@@ -3,9 +3,9 @@ entries:
   masternode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T16:41:54.547881498+02:00"
+    created: "2021-04-22T09:11:37.598509153+02:00"
     description: A Helm chart for Kubernetes
-    digest: 26ea6d4b44fa7b78a1a16a6617a5a482e2e740106349680446a125cce3cb8bda
+    digest: 701b8f0aaaa051f4ee2a1bda666532d7c6e6b6f1e6b2df6a434e2294f34264e8
     name: masternode
     type: application
     urls:
@@ -14,9 +14,10 @@ entries:
   node-red-krones-edition:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T16:41:54.549073168+02:00"
+    created: "2021-04-22T09:11:37.599586153+02:00"
     description: A Helm chart for Kubernetes
-    digest: 6fef0e46acdc228cd52756fef1cbe7967fbe8bb0b1cf8a328f4e7f08e70cab5c
+    digest: 7e10d31ca445e298a46bc20496edd33240d5f9764c08510ec8e7b30b0065e474
+    icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
     name: node-red-krones-edition
     type: application
     urls:
@@ -25,12 +26,12 @@ entries:
   slavenode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-21T16:41:54.550087613+02:00"
+    created: "2021-04-22T09:11:37.60062439+02:00"
     description: A Helm chart for Kubernetes
-    digest: c7a60562cefc8595af4e3aa3ac1d0b4120e8b33025e9778751fdaa06f70d70de
+    digest: 37cc624317a0e1ddd904341e575caf198830d274fda8db633a74273486888085
     name: slavenode
     type: application
     urls:
     - https://alberthahn.github.io/helm-charts/slavenode-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-21T16:41:54.546496754+02:00"
+generated: "2021-04-22T09:11:37.597092552+02:00"
