@@ -1,9 +1,10 @@
-{{- if .Values.VolumeExists.enabled -}}
+{{- if .Values.VolumeExists.disabled -}}
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: task-pv-claim
 spec:
+  claimPolicy: Retain
   storageClassName: longhorn
   accessModes:
     - ReadWriteOnce
