@@ -5,6 +5,10 @@ autoscaling:
   minReplicas: 1
   targetCPUUtilizationPercentage: 80
 fullnameOverride: ''
+
+VolumeExists:
+  enabled: false
+
 image:
   pullPolicy: Always
   repository: albird/node-red-krones-edition
