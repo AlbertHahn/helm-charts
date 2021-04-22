@@ -37,6 +37,10 @@ spec:
             - name: http
               containerPort: 1880
               protocol: TCP
+          volumes:
+            - name: task-pv-storage
+              persistentVolumeClaim:
+                claimName: task-pv-claim
           volumeMounts:
             - mountPath: "/root"
               name: task-pv-storage
