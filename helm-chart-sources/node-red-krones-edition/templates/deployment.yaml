@@ -5,10 +5,6 @@ metadata:
   labels:
     {{- include "node-red-krones-edition.labels" . | nindent 4 }}
 spec:
-  volumes:
-    - name: task-pv-storage
-      persistentVolumeClaim:
-        claimName: task-pv-claim
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
