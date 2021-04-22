@@ -5,6 +5,10 @@ metadata:
   labels:
     {{- include "node-red-krones-edition.labels" . | nindent 4 }}
 spec:
+  volumes:
+    - name: task-pv-storage
+      persistentVolumeClaim:
+        claimName: task-pv-claim
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
@@ -37,6 +41,9 @@ spec:
             - name: http
               containerPort: 1880
               protocol: TCP
+          volumeMounts:
+            - mountPath: "/root"
+              name: task-pv-storage
           livenessProbe:
             httpGet:
               path: /
