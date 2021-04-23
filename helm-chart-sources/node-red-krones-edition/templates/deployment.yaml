@@ -27,10 +27,11 @@ spec:
       serviceAccountName: {{ include "node-red-krones-edition.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      #Declare volume
       volumes:
-        - name: task-pv-storage
+        - name: node-red-krones-volume
           persistentVolumeClaim:
-            claimName: task-pv-claim
+            claimName: {{ .Values.persistence.claimName }}
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -41,9 +42,10 @@ spec:
             - name: http
               containerPort: 1880
               protocol: TCP
+          # choose volume
           volumeMounts:
-            - mountPath: "/data"
-              name: task-pv-storage
+            - mountPath: /data
+              name: node-red-krones-volume
           livenessProbe:
             httpGet:
               path: /

@@ -1,17 +1,15 @@
-{{- if .Values.VolumeExists.disabled -}}
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: task-pv-claim
+  name: {{ .Values.persistence.claimName }}
   annotations:
     {{- if .Values.skipuninstall }}
     "helm.sh/resource-policy": keep
     {{- end }}
 spec:
-  storageClassName: longhorn
+  storageClassName: {{ .Values.persistence.storageClassName }}
   accessModes:
-    - ReadWriteOnce
+    {{- toYaml .Values.persistence.accessModes | nindent 8 }}
   resources:
     requests:
-      storage: 3Gi
-{{- end }}
+      storage: {{ .Values.persistence.storage }}

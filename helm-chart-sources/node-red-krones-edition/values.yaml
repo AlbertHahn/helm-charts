@@ -1,5 +1,3 @@
-VolumeExists:
-  disabled: true
 affinity: {}
 autoscaling:
   enabled: false
@@ -7,7 +5,7 @@ autoscaling:
   minReplicas: 1
   targetCPUUtilizationPercentage: 80
 fullnameOverride: ''
-skipuninstall: true
+
 image:
   pullPolicy: Always
   repository: albird/node-red-krones-edition
@@ -24,6 +22,16 @@ ingress:
             servicePort: 1880
           path: /
   tls: []
+
+skipuninstall: true
+persistence:
+  claimName: node-red-krones-claimdata
+  volumeName: node-red-krones-volume
+  accessModes: ReadWriteOnce
+  storageClassName: longhorn
+  storage: 3Gi
+
+
 nameOverride: ''
 nodeSelector: {}
 podAnnotations: {}
