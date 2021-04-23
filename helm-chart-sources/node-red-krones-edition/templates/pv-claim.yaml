@@ -9,7 +9,7 @@ metadata:
 spec:
   storageClassName: {{ .Values.persistence.storageClassName }}
   accessModes:
-    {{- toYaml .Values.persistence.accessModes | nindent 12 }}
+    {{- toYaml .Values.persistence.accessModes}}
   resources:
     requests:
       storage: {{ .Values.persistence.storage }}
