@@ -1,3 +1,5 @@
+VolumeExists:
+  disabled: true
 affinity: {}
 autoscaling:
   enabled: false
@@ -5,17 +7,11 @@ autoscaling:
   minReplicas: 1
   targetCPUUtilizationPercentage: 80
 fullnameOverride: ''
-
-VolumeExists:
-  disabled: false
-
+skipuninstall: true
 image:
   pullPolicy: Always
   repository: albird/node-red-krones-edition
   tag: latest
-ports:
-- containerPort: 1880
-
 imagePullSecrets: []
 ingress:
   annotations: {}
@@ -33,6 +29,8 @@ nodeSelector: {}
 podAnnotations: {}
 podSecurityContext:
   fsGroup: 2000
+ports:
+  - containerPort: 1880
 replicaCount: 1
 resources: {}
 securityContext: {}
@@ -44,4 +42,3 @@ serviceAccount:
   create: true
   name: ''
 tolerations: []
-

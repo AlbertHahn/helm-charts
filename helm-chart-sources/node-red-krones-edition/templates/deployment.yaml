@@ -42,7 +42,7 @@ spec:
               containerPort: 1880
               protocol: TCP
           volumeMounts:
-            - mountPath: "/root"
+            - mountPath: "/data"
               name: task-pv-storage
           livenessProbe:
             httpGet:
