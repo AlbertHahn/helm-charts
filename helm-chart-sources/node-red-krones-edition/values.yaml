@@ -27,7 +27,8 @@ skipuninstall: true
 persistence:
   claimName: node-red-krones-claimdata
   volumeName: node-red-krones-volume
-  accessModes: ReadWriteOnce
+  accessModes:
+    - ReadWriteOnce
   storageClassName: longhorn
   storage: 3Gi
 

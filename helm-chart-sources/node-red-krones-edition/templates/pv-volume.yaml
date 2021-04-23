@@ -9,4 +9,4 @@ spec:
   accessModes:
     {{- toYaml .Values.persistence.accessModes | nindent 8 }}
   hostPath:
-    path: {{ ".Values.volumeMounts.mountPath" }}
+    path: "/data"
