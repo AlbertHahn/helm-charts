@@ -7,6 +7,6 @@ spec:
   capacity:
     storage: {{ .Values.persistence.storage }}
   accessModes:
-    {{- .Values.persistence.accessModes | nindent 8 }}
+    {{- toYaml .Values.persistence.accessModes | nindent 8 }}
   hostPath:
     path: {{ ".Values.volumeMounts.mountPath" }}
