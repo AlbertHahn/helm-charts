@@ -23,6 +23,7 @@ ingress:
           path: /
   tls: []
 
+volumeExists: false
 skipuninstall: true
 persistence:
   claimName: node-red-krones-claimdata
