@@ -1,4 +1,5 @@
 # All .Values.datatypes are parameters that can be changed in the file values.yaml!
+{{- if not .Values.volumeExists }}
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -19,3 +20,4 @@ spec:
     requests:
       # Define storage
       storage: {{ .Values.persistence.storage }}
+{{- end }}
