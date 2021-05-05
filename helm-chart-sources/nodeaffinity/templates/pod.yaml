@@ -9,6 +9,8 @@ spec:
   - name: nginx
     image: nginx
     imagePullPolicy: IfNotPresent
+  nodeSelector:
+    accelerator: blue
   tolerations:
   - key: "colour"
     operator: "Equal"
