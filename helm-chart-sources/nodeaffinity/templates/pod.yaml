@@ -10,7 +10,7 @@ spec:
     image: nginx
     imagePullPolicy: IfNotPresent
   tolerations:
-  - key: "key1"
+  - key: "colour"
     operator: "Equal"
     value: "blue"
     effect: "NoSchedule"
