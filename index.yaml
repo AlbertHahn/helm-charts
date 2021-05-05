@@ -3,9 +3,9 @@ entries:
   masternode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-22T09:46:32.964538516+02:00"
+    created: "2021-05-05T12:07:43.494729885+02:00"
     description: A Helm chart for Kubernetes
-    digest: 5e25ebe913ff1b176c44e108962458a0c684edb2db63cece9959da024cd16182
+    digest: e009387b81e70486a8ed76d1b7fb4e548375cc1c5a10c6a9cb2e6663ce53b618
     name: masternode
     type: application
     urls:
@@ -14,24 +14,35 @@ entries:
   node-red-krones-edition:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-22T09:46:32.965767112+02:00"
+    created: "2021-05-05T12:07:43.495289391+02:00"
     description: A Helm chart for Kubernetes
-    digest: d1b2073f2ca6229fdd967a5fd76dcf8b982675be8035e3f89ffe9eaf6db3778c
+    digest: 4edc7508e7a333d35a79e83b3c0902ba07b60861f895e7db2e356fcf3d67ab3b
     icon: https://upload.wikimedia.org/wikipedia/commons/7/7e/Krones_Logo.svg
     name: node-red-krones-edition
     type: application
     urls:
     - https://alberthahn.github.io/helm-charts/node-red-krones-edition-0.1.0.tgz
     version: 0.1.0
+  nodeaffinity:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-05T12:07:43.495727488+02:00"
+    description: A Helm chart for Kubernetes
+    digest: c96716e689c08d723a8c8731a36fbda4d4680761afe4d940081aa5b17250414c
+    name: nodeaffinity
+    type: application
+    urls:
+    - https://alberthahn.github.io/helm-charts/nodeaffinity-0.1.0.tgz
+    version: 0.1.0
   slavenode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-22T09:46:32.966961354+02:00"
+    created: "2021-05-05T12:07:43.496192547+02:00"
     description: A Helm chart for Kubernetes
-    digest: e4e8bad8f2f0d808c842e356f95b842d30753846f6c86d9c6735c32b7a9cd437
+    digest: 08c204bedc780a6947f49ef42f323843f175f35b2357c03c34733b8d2905c0eb
     name: slavenode
     type: application
     urls:
     - https://alberthahn.github.io/helm-charts/slavenode-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-22T09:46:32.963732126+02:00"
+generated: "2021-05-05T12:07:43.493591916+02:00"
